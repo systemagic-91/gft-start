@@ -28,7 +28,7 @@ public abstract class Conta implements IConta{
 
     @Override
     public void sacar(double valor){
-
+        this.saldo -= valor;
     }
 
     @Override
