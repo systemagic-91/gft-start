@@ -11,6 +11,8 @@ public class Desafio4 {
 
         String respostasCompetidores = scan.nextLine();
 
+        scan.close();
+
         String[] respostasCompetidoresSplit = respostasCompetidores.split(" ");
 
         int count = 0;

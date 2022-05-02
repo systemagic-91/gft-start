@@ -9,6 +9,8 @@ public class Desafio2 {
 
         String input = scan.nextLine();
 
+        scan.close();
+
         String[] inputSplit = input.split(" ");
 
         double media = Double.parseDouble(inputSplit[0]) / Double.parseDouble(inputSplit[1]);

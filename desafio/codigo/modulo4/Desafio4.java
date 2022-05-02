@@ -13,7 +13,9 @@ public class Desafio4 {
             int numero = scan.nextInt();
             numeros.add(numero);
         }
-
+        
+        scan.close();
+        
         Integer max = Collections.max(numeros);
 
         System.out.println(max);

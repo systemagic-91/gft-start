@@ -18,6 +18,8 @@ public class Desafio3 {
             setFig.add(scan.nextInt());
         }
 
+        scan.close();       
+        
         System.out.println(numTotal - setFig.size());
     }
 }

@@ -11,7 +11,9 @@ public class Desafio3 {
         String[] split = N.split(" ");
 
         int P = Integer.parseInt(split[0]) * Integer.parseInt(split[1]);
-
+        
+        scan.close();
+        
         System.out.println(P);
     }
 }
