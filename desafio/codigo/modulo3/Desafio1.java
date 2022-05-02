@@ -1,3 +1,5 @@
+package desafio.codigo.modulo3;
+
 import java.util.Scanner;
 
 public class Desafio1 {

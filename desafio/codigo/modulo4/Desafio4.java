@@ -1,6 +1,8 @@
+package desafio.codigo.modulo4;
+
 import java.util.*;
 
-public class Main {
+public class Desafio4 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
