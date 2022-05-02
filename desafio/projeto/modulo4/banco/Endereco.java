@@ -7,6 +7,14 @@ public class Endereco {
     public String codigo_postal;
     public int numero;
 
+    public Endereco(String log, String bai, String loc, String cep, int num){
+        this.logradouro = log;
+        this.bairro = bai;
+        this.localidade = loc;
+        this.codigo_postal = cep;
+        this.numero = num;
+    }
+
     public String getLogradouro() {
         return logradouro;
     }
